@@ -20,6 +20,10 @@ XMPP is an open XML technology for real-time communication, which powers a wide 
 * [RFC6121](https://datatracker.ietf.org/doc/rfc6121/) - Instant Messaging and Presence.
 * [RFC7622](https://datatracker.ietf.org/doc/rfc7622/) - Address Format.
 * [XEPs](https://xmpp.org/extensions/) - Extensions to XMPP.
+* Encryption protocols
+  * [OMEMO](https://conversations.im/omemo/)
+  * [OTR](https://otr.cypherpunks.ca/)
+  * [XEP-0373: OpenPGP for XMPP](https://xmpp.org/extensions/xep-0373.html)
 
 ## Clients
 
@@ -49,12 +53,14 @@ XMPP is an open XML technology for real-time communication, which powers a wide 
 * [xmppc](https://codeberg.org/Anoxinon_e.V./xmppc) - CLI XMPP client.
 * [Communiqué](https://codeberg.org/mellium/communique-tui/) - TUI XMPP client with a keyboard shortcut focused interface
 * [Comparison of XMPP clients](https://handwiki.org/wiki/Software:Comparison%20of%20XMPP%20clients)
+
 ## Servers 
 
 * [Astra](https://www.astrachat.com/) - Commercial XMPP solution
 * [Ejabberd](https://www.ejabberd.im/) - Distributed fault-tolerant Jabber server which is mainly written in Erlang.
 * [Jabberd2](http://jabberd2.org/) - Next generation of the jabberd project, c++.
 * [Metronome](https://metronome.im/) - Fork of Prosody server, more complete with a dual license.
+* [MongooseIM](https://github.com/esl/MongooseIM) - XMPP server at the core of an Instant Messaging platform
 * [Openfire](https://www.igniterealtime.org/projects/openfire/) - XMPP server written in Java.
 * [Prosody](https://prosody.im/) - Lightweight, open source Jabber server, written in Lua.
 * [Snikket](https://snikket.org/) - All-in-one Dockerized easy XMPP solution, including web admin and clients.
@@ -62,6 +68,7 @@ XMPP is an open XML technology for real-time communication, which powers a wide 
 * [Vysper](https://mina.apache.org/vysper-project/) - XMPP Modular server from Apache
 * [Xabber](https://www.xabber.com/server/) - Xabber XMPP Server
 * [omparison of XMPP servers](https://handwiki.org/wiki/Software:Comparison_of_XMPP_server_software)
+
 ## Libraries
 
 * [JaXMPP](https://github.com/tigaseinc/jaxmpp) - Java XMPP client library
@@ -84,6 +91,7 @@ XMPP is an open XML technology for real-time communication, which powers a wide 
 * [riddim](http://code.matthewwild.co.uk/riddim) - XMPP bot and bot framework for Lua using Verse.
 
 ## Tools
+
 * [Cloud Seeder](https://ipv6.rs/cloudseeder) - 1-click installer and maintenance suite to run an XMPP server on your Windows, MacOS or Linux computer.
 * [omemo-utils](https://github.com/wstrm/omemo-utils) - Utilities for OMEMO media sharing.
 * [xmpp-console](https://github.com/pasis/xmppconsole) - Send raw XMPP stanzas and display streams.
